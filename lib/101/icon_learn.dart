@@ -40,7 +40,7 @@ class IconLearnView extends StatelessWidget {
 }
 
 class IconSizes {
-  final double iconSmall = 50;
+  final double iconSmall = 70;
   static const double iconSmall2x = 80;
 }
 
