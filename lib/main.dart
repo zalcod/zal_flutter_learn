@@ -4,7 +4,9 @@ import 'package:zal_flutter_learn/101/app_bar_learn.dart';
 import 'package:zal_flutter_learn/101/button_learn.dart';
 import 'package:zal_flutter_learn/101/color_learn.dart';
 import 'package:zal_flutter_learn/101/container_sized_box_learn.dart';
+import 'package:zal_flutter_learn/101/padding_learn.dart';
 import 'package:zal_flutter_learn/101/scaffold_learn.dart';
+import 'package:zal_flutter_learn/101/stateless_learn.dart';
 import 'package:zal_flutter_learn/101/text_learn_view.dart';
 
 void main() {
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
               systemOverlayStyle: SystemUiOverlayStyle.light,
               backgroundColor: Colors.transparent,
               elevation: 0)),
-      home: const ColorLearn(),
+      home: PaddingLearn(),
     );
   }
 }
