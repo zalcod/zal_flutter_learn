@@ -3,6 +3,13 @@ import 'package:flutter/services.dart';
 
 import '../product/language/language_items.dart';
 
+/* 
+- Decoration alır bu widget.
+- keyboardType:  vererek TextField’a ait inputun hangi türden olduğunu belirtebiliyoruz.
+- autoFillHints ile beraber otomatik mailler varsa onlarla doldurmamızı sağlıyor.
+- TextInputAction.next ile sonraki TextField’a geçebilirsiniz.
+- Tema’nın içerisinde InputDecorationTheme belirleyebiliriz ve buna göre TextField’lar için bir tema tanımlayabiliriz. 
+*/
 class TextFieldLearn extends StatefulWidget {
   const TextFieldLearn({Key? key}) : super(key: key);
 
